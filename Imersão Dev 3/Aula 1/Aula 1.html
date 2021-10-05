@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 01</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      
+    <script>
+    var notaDoPrimeiroBimestre = 9.4342
+    var notaDoSegundoBimestre = 7.253
+    var notaDoTerceiroBimestre = 4.275
+    var notaDoQuartoBimestre = 2.1469
+
+    var notaFinal = ((notaDoPrimeiroBimestre + notaDoSegundoBimestre + notaDoTerceiroBimestre + notaDoQuartoBimestre) / 4).toFixed(1)
+    document.write("<h2> Nota Final: " + notaFinal + "</h2>")
+
+    if (notaFinal < 5)
+    document.write("<h3> Reprovado </h3>")
+    else if (notaFinal = 5 & notaFinal < 6)
+    document.write("<h4> Recuperação </h4>")
+    else if (notaFinal >= 6)
+    document.write("<h5> Aprovado </h5>")
+
+    </script>
+    </div>
+    
+    
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+</html>

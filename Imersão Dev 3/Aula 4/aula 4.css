@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: #ffffff;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/789/568/999/blade-runner-blade-runner-2049-movies-car-wallpaper-preview.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+.filmes {
+  max-height: 150px;
+  margin: 0 10px;
+}
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: white;
+}
